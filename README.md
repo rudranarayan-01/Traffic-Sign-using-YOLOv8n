@@ -90,7 +90,9 @@ results = model.predict(source='path_to_test_image.jpg', save=True)
 
 ## Contact
 **Name** : Rudranayan Sahu
+
 **Website** : https://akash0101.pythonanywhere.com
+
 For any queries or contributions, contact **rudranarayansahu.tech@gmail.com** or visit **[GitHub](https://github.com/rudranarayan-01)**.
 
 Feel free to connect ✨✨
