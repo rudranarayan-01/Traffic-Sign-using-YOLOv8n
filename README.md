@@ -59,7 +59,13 @@ Traffic-Sign-Recognition-YOLOv8n/
 
     model.train(data='path_to_data.yaml', epochs=10, batch=16)
     ```
-2. Adjust the number of epochs and batch size based on your Colab GPU availability.
+
+    or
+
+   ```
+    !yolo task=detect mode=train model=yolov8n.pt data=/content/RoadSignDetection/Self-Driving-Cars-6/data.yaml epochs=10 imgsz=640 batch=16
+   ```
+3. Adjust the number of epochs and batch size based on your Colab GPU availability.
 
 ## Evaluation
 Evaluate the model using the validation set:
