@@ -57,7 +57,7 @@ Traffic-Sign-Recognition-YOLOv8n/
     from ultralytics import YOLO
     model = YOLO('yolov8n.pt')
 
-    model.train(data='path_to_data.yaml', epochs=50, batch=16)
+    model.train(data='path_to_data.yaml', epochs=10, batch=16)
     ```
 2. Adjust the number of epochs and batch size based on your Colab GPU availability.
 
